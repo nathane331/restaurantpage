@@ -1,0 +1,25 @@
+<div class="home-page">
+            <div id="home-top-content">
+                <div id="home-left-content">
+                    <h2 class="tagline">Let your fangs out.</h2>
+                    <h3 class="sub-tagline">Visit the First Kindred-Only Bar</h3>
+                    <p class="home-text">Situated at the heart of Santa Monica's nightlife scene, Bar Sanguine keeps the lights low and the blood flowing for any kindred who finds herself in need of a hot drink.</p>
+                    <p class="home-text">Ghouls are welcome on a case-by-case basis and will be individually evaluated upon entry. Kine are not welcome under any circumstances. Masquerade violations will be strictly enforced.</p>
+                    <button class="nav-btn">RESERVE A BOOTH</button>
+                </div>
+                <div id="home-right-content">
+                    <img class="jawline-img"src="./images/rylan-krupp.jpg" alt="Image of male jawline with red lips.">
+                </div>
+            </div>
+            <div id="home-bottom-content">
+                <div id="photo-grid">
+                    <img class="grid-image"src="./images/drink-marta-dzedyshko.jpg" alt="Blood orange on a cutting board.">
+                    <div class="grid-text">PREMIUM FLAVORS.</div>
+                    <img class="grid-image"src="./images/thimo-van-leeuwen.jpg" alt="Pouring alcohol.">
+                    <div class="grid-text">EXCELLENT SERVICE.</div>   
+                    <img class="grid-image"src="./images/the-design-lady.jpg" alt="Red wine in a glass.">
+                </div>
+            </div>
+            
+
+        </div>
