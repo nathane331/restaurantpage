@@ -11,7 +11,7 @@
 :root{
     --background-color: #090c08;
     --secondary-color: #21221d;
-    --brand-color: #79342b;
+    --brand-color: #47160e;
     --accent-color: #db5e5a;
     --main-text-color: #f1eadb;
     --accent-text-color: #C4B5AB;
@@ -92,11 +92,80 @@ body {
 }
 
 #content{
-    padding: 64px 120px 64px 120px;
+    padding: 2% 18% 2% 18% ;
     color: var(--main-text-color);
+}
+
+#home-left-content{
+    width: 40%;
 }
   
 .tagline{
     font-family: "Antic Didone";
     font-weight: 300;
+    font-size: 3.5rem;
+}
+
+.sub-tagline{
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    color: var(--accent-text-color);
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.jawline-img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+#home-top-content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
+
+}
+p{
+    font-family: Raleway;
+    color: var(--accent-text-color);
+}
+
+.home-text{
+    margin-bottom:18px;
+    
+}
+
+#home-bottom-content{
+    background-color: var(--brand-color);
+    padding: 18px;
+    margin-top:50px;
+}
+
+#photo-grid{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+.grid-image{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+.grid-text{
+    width: 250px;
+    padding: 24px;
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    color: var(--accent-text-color);
+    font-size: 2.2rem;
+    font-weight: 300;
+    justify-self: center;
+    align-self:center;
+    text-align:justify;
 }
