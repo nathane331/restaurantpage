@@ -1,0 +1,102 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: #090c08;
+    --secondary-color: #21221d;
+    --brand-color: #79342b;
+    --accent-color: #db5e5a;
+    --main-text-color: #f1eadb;
+    --accent-text-color: #C4B5AB;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 40vh;
+
+    background-color: #47160e;
+    background-image:url(./images/russell-ferrer-bar.jpg);
+    background-size: 120% ;
+    background-position-y: 70%;
+    background-blend-mode: darken;
+
+    padding: 24px;
+    padding-bottom: 40px;
+}
+
+.logo{
+    font-family:"Antic Didone";
+    font-weight: 200;
+    font-size: 5.5rem;
+    color: var(--main-text-color);
+    align-self: center;
+    letter-spacing: 1rem;
+}
+
+.info-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:12px;
+    
+    color:var(--main-text-color);
+    border-bottom: var(--main-text-color) 1px solid;
+    
+}
+
+.info-bar {
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.navbar{
+    display:Flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.nav-btn{
+    
+    background-color: #090c0898;
+    border:1px solid var(--main-text-color);
+    padding: 12px 56px;
+    color:var(--main-text-color);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 400;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+}
+
+.nav-btn:hover{
+    background-color: var(--accent-text-color);
+    color:var(--background-color);
+    border:1px solid var(--accent-text-color);
+
+}
+
+#content{
+    padding: 64px 120px 64px 120px;
+    color: var(--main-text-color);
+}
+  
+.tagline{
+    font-family: "Antic Didone";
+    font-weight: 300;
+}
