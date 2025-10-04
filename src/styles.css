@@ -121,7 +121,7 @@ body {
     object-fit: cover;
 }
 
-#home-top-content{
+.home-top-content{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -138,13 +138,13 @@ p{
     
 }
 
-#home-bottom-content{
+.home-bottom-content{
     background-color: var(--brand-color);
     padding: 18px;
     margin-top:50px;
 }
 
-#photo-grid{
+.photo-grid{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
