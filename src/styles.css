@@ -100,13 +100,15 @@ body {
     width: 40%;
 }
   
-.tagline{
+h2{
     font-family: "Antic Didone";
     font-weight: 300;
     font-size: 3.5rem;
 }
 
-.sub-tagline{
+
+
+h3{
     font-family: "Cormorant Garamond";
     font-style: italic;
     color: var(--accent-text-color);
@@ -169,3 +171,61 @@ p{
     align-self:center;
     text-align:justify;
 }
+
+.menu-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.menu-header{
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    letter-spacing: 0.8rem;
+    
+    color: var(--accent-color);
+    padding-bottom: 48px;
+}
+
+.menu-list{
+    font-family: "Raleway";
+    
+    color: var(--accent-text-color);
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+    
+}
+
+ul.menu-list {
+    width: 500px;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+
+}
+
+
+ul.menu-list li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ }
+ul.menu-list span:first-child {
+    padding-right: 0.33em;
+    background: var(--background-color)}
+ul.menu-list span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: var(--background-color)}
+
+li.menu-item{
+    padding-bottom: 16px;
+}
+
